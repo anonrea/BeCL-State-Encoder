@@ -8,7 +8,7 @@ Specifically, ICM trains two networks $f(a_t |s_t,s_{t+1})$  and $f(s_{t+1} | s_
 
 We evaluate the qualitative results of the pre-trained state encoders in different downstream quadruped tasks in URLB: 
 
-![quadruped_Contratsive encoder_ICM encoder_Random encoder](.img/quadruped_Contratsive encoder_ICM encoder_Random encoder.png)
+![quadruped_Contratsive encoder_ICM encoder_Random encoder](https://raw.githubusercontent.com/anonrea/BeCL-State-Encoder/main/.img/quadruped_Contratsive%20encoder_ICM%20encoder_Random%20encoder.png)
 
 The results that the contrastive encoder we introduced in our paper performs best than other alternative encoders. ICM encoder and random encoder both fail to converge in the finetuning stage. 
 
